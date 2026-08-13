@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Math Symbol: Square Root (Top-Left) -->
+    <path
+        android:pathData="M20,28 H22 L24,33 L27,25 H32"
+        android:strokeColor="#8038BDF8"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Math Symbol: Integral (Top-Right) -->
+    <path
+        android:pathData="M81,22 C79,22 78,23 78,25 V31 C78,33 77,34 75,34 M77,28 H79"
+        android:strokeColor="#80C084FC"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- PDF Document Silhouette Frame -->
+    <path
+        android:pathData="M34,22 H64 L76,34 V80 C76,83.3 73.3,86 70,86 H38 C34.7,86 32,83.3 32,80 V24 C32,22.9 32.9,22 34,22 Z"
+        android:fillColor="#221E293B">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="32"
+                android:startY="22"
+                android:endX="76"
+                android:endY="86"
+                android:type="linear">
+                <item android:color="#FF38BDF8" android:offset="0.0" />
+                <item android:color="#FF818CF8" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- PDF Folded Corner Contour -->
+    <path
+        android:pathData="M64,22 V34 H76"
+        android:fillColor="#1A38BDF8"
+        android:strokeColor="#FF38BDF8"
+        android:strokeWidth="1.8"
+        android:strokeLineJoin="round" />
+
+    <!-- "J" Monogram Letter (Cyan/Blue Gradient) -->
+    <path
+        android:pathData="M43,38 V58 C43,62 40,65 35,65 C31,65 29,62 29,58"
+        android:strokeWidth="6.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="29"
+                android:startY="38"
+                android:endX="43"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#FF38BDF8" android:offset="0.0" />
+                <item android:color="#FF0284C7" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- "M" Monogram Letter (Violet/Purple Gradient) -->
+    <path
+        android:pathData="M49,65 V38 L58,54 L67,38 V65"
+        android:strokeWidth="6.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="49"
+                android:startY="38"
+                android:endX="67"
+                android:endY="65"
+                android:type="linear">
+                <item android:color="#FF818CF8" android:offset="0.0" />
+                <item android:color="#FFC084FC" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- CBT Exam Badge (Bottom Right Integration) -->
+    <path
+        android:pathData="M73,73 m-9,0 a9,9 0 1,0 18,0 a9,9 0 1,0 -18,0"
+        android:fillColor="#FF10B981"
+        android:strokeColor="#FF0F172A"
+        android:strokeWidth="1.5" />
+
+    <!-- CBT Checkmark Symbol -->
+    <path
+        android:pathData="M68.5,73 L71.5,76 L77.5,70"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+</vector>

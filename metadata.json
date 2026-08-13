@@ -1,0 +1,6 @@
+{
+  "name": "JEE Main 2027 • PDF to CBT",
+  "description": "Convert JEE Main Questions PDF and Official Answer Key PDF into an interactive NTA-style Computer Based Test with instant timer, palette, and detailed analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
